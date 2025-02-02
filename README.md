@@ -11,9 +11,9 @@ Users can access images from the public/ folder or any child folder of the publi
 The public/ folder used to add static assets. <br/>
 URL to access the image should be like <host_name>/image.png.<br/>
 
-  `<div style={{ backgroundImage: "url(/image.png)" }}>`
-    Hello World
- ` </div>`
+       <div style={{ backgroundImage: "url(/image.png)" }}>
+         Hello World
+       </div>
   
 ### Using the Absolute URL Method
 
