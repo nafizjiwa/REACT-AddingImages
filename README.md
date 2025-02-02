@@ -16,10 +16,10 @@ URL to access the image should be like <host_name>/image.png.<br/>
        </div>
   
 ### Using the Absolute URL Method
-
 Users can access the background image directly from the public/ folder via absolute URL using the environment variable. <br/>
 
-    backgroundImage: `url(${process.env.PUBLIC_URL + "/image.png"})`,
+     import Background from '../images/background_image.png';<br/>
+         backgroundImage: `url(${process.env.PUBLIC_URL + "/image.png"})`,
             
 ### Add background image from src/ folder in React
 
